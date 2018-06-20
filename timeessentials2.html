@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+function swap(one, two) {
+    document.getElementById(one).style.display = 'block';
+    document.getElementById(two).style.display = 'none';
+}
+
+</script>
+
+</head>
+<body>
+  <button onClick="swap('one','two')">View Portfolio</button>
+  <button onClick="swap('two','one')">View Results</button>
+  <div>
+  <span style="display:none" id="one">div1</span>
+  <span id="two">div2</span>
+  </div>
+</body>
+</html>
